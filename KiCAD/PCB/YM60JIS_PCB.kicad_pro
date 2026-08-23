@@ -61,10 +61,10 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.15,
-          "min_island_area": 10.0,
+          "min_island_area": 9.99999999996,
           "min_thickness": 0.25,
           "pad_connection": 1,
-          "remove_islands": 0,
+          "remove_islands": 2,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -76,7 +76,104 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_to_hole|104775000|133350000|262a7536-dfbb-4ffa-bd40-10677c1041b3|e3def169-f40c-4991-9ea3-951b2bc55938",
+          ""
+        ],
+        [
+          "hole_to_hole|104775000|133350000|3e4d3cd3-bc2e-4cbd-8e5c-4c8eda9b2e3b|e3def169-f40c-4991-9ea3-951b2bc55938",
+          ""
+        ],
+        [
+          "hole_to_hole|109855000|133350000|19de71f9-30dc-44f2-921c-266f58ccc9f1|3e4d3cd3-bc2e-4cbd-8e5c-4c8eda9b2e3b",
+          ""
+        ],
+        [
+          "hole_to_hole|121126250|114300000|3822afcb-2fea-4de4-80ea-d788f3474b2e|ee9c25ac-1a1a-47c7-b045-487abb6e5766",
+          ""
+        ],
+        [
+          "hole_to_hole|195262500|133350000|0bb8fa01-9c1e-49f0-8bf7-030af8cb2730|fc6044f0-e8cf-49a2-93c8-6e3530dddf60",
+          ""
+        ],
+        [
+          "hole_to_hole|200342500|133350000|05cb6fc2-2912-4d8c-87e0-4bfebf1bcdef|585cb445-82f9-4722-ad27-ca1c0d818fef",
+          ""
+        ],
+        [
+          "hole_to_hole|240506250|125136400|6bc1f82c-e155-4c56-9495-ca6864ad7760|f79f7dc4-94b2-4787-83dc-9ff5982362b6",
+          ""
+        ],
+        [
+          "hole_to_hole|240506250|140376400|1e376907-0883-4f90-9ab1-cebd782e895e|81567cb8-cb66-4d21-b174-9f77a5702e27",
+          ""
+        ],
+        [
+          "hole_to_hole|247332500|133391400|002c291e-227e-49ec-8c67-2ccacae26cc3|f82bedc6-dbd8-4b2f-912b-bdfb9932e1c8",
+          ""
+        ],
+        [
+          "hole_to_hole|252412500|133391400|002c291e-227e-49ec-8c67-2ccacae26cc3|59c0c3f0-ea02-4bbf-abac-fbd09432f2ac",
+          ""
+        ],
+        [
+          "hole_to_hole|252412500|133391400|59c0c3f0-ea02-4bbf-abac-fbd09432f2ac|6d161712-e4a9-4753-a6cd-fdd228cefd8e",
+          ""
+        ],
+        [
+          "hole_to_hole|264318750|125136400|2712a66f-7c20-4213-b8ff-d4faef413301|9e6851a7-7496-45c7-b70d-4e9f17f8ff2d",
+          ""
+        ],
+        [
+          "hole_to_hole|264318750|140376400|970577d3-1cd0-48f0-994b-7da4a646b153|ba555c46-594a-48c2-8bc5-e0d61a317f6c",
+          ""
+        ],
+        [
+          "hole_to_hole|350043750|65405000|14a22022-e92f-49e9-921a-9ac6a1eac7ef|70880fc4-1634-4b77-8263-6b0f5ddf0212",
+          ""
+        ],
+        [
+          "hole_to_hole|356235000|59690000|70a5e0ed-6c10-4679-8c99-cc0c1a9a999f|af469ebb-2bc8-4c61-ae33-ebdd8dcce572",
+          ""
+        ],
+        [
+          "hole_to_hole|357505000|57150000|af469ebb-2bc8-4c61-ae33-ebdd8dcce572|b9f94bbd-7aa6-4247-b5cc-c67d143a372a",
+          ""
+        ],
+        [
+          "hole_to_hole|357505000|57150000|b9f94bbd-7aa6-4247-b5cc-c67d143a372a|de4b8fe0-dbd3-4254-a13c-59c68fa3d66b",
+          ""
+        ],
+        [
+          "hole_to_hole|366395000|57150000|272af9cd-843e-4c16-8905-5dd33951a1e0|3da8f156-274f-43c9-863c-e55875248ede",
+          ""
+        ],
+        [
+          "nonmirrored_text_on_back_layer|112550000|64725000|3f7a07c5-a9c0-41d2-838e-99744bd3b31e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|108750000|48225000|df09eab3-2075-41b8-8709-12cb20056303|418d28e3-873c-40cb-9046-d40e3b01d8b1",
+          ""
+        ],
+        [
+          "silk_edge_clearance|118150000|48225000|df09eab3-2075-41b8-8709-12cb20056303|927f7587-83d7-413e-95fa-2ad96eed2969",
+          ""
+        ],
+        [
+          "solder_mask_bridge|349964375|63817500|70880fc4-1634-4b77-8263-6b0f5ddf0212|14a22022-e92f-49e9-921a-9ac6a1eac7ef",
+          ""
+        ],
+        [
+          "solder_mask_bridge|353565000|55610000|9e763209-4d1d-4bd1-8a31-db694bbd24ea|8b128157-e0de-4572-8cf5-e41f8cfdf533",
+          ""
+        ],
+        [
+          "solder_mask_bridge|360810000|58690000|6782a254-26a2-4c7e-9d8a-98d773969af9|1a359621-5c35-4030-95e1-f4408a922031",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -86,7 +183,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -98,9 +195,9 @@
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
+        "hole_clearance": "ignore",
         "hole_near_hole": "error",
-        "hole_to_hole": "error",
+        "hole_to_hole": "ignore",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -122,8 +219,8 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -750,7 +847,7 @@
         "uuid": "3d120d70-8016-4f25-b980-ad33d03c9704"
       }
     ],
-    "used_designators": "J1,J101,C1-17,C101-117,BTN1,BTN101,Y1,Y101,#PWR1-45,#PWR101-145,#FLG1-2,#FLG101-102,U1-4,U101-104,D1-169,ST64_1,ST64_101,SW1-169,R1-7,R101-107,SW14_1,SW14_101,SW42_1,SW42_101,SW44_1,SW44_101,SW56_1,SW56_101,ST62_1,ST62_101,SW58_1,SW58_101,ST1-6,ST14,ST42,ST44,ST56,ST62,ST64,ST101-106,SW59_1,SW59_101,SW62_1,SW62_101,SW64_1,SW64_101",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
