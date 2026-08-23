@@ -645,7 +645,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/home/ben/Github/YM60JIS/Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "YM60JIS_PCB.step",
