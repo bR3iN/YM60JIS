@@ -29,3 +29,16 @@ fp-info-cache
 .history/
 jlcpcb/
 *.rpt
+
+# Leftovers and logs
+*.kicad_sch_old
+*.log
+
+# Production outputs
+production/
+*-all-pos.csv
+*.gm1
+*.drl
+*.gbr
+*.g[bt][lsop]
+*.ipc

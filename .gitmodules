@@ -1,10 +1,4 @@
 
-[submodule "KiCAD/lib/external/kleeb"]
-	path = KiCAD/lib/external/kleeb
-	url = https://github.com/crides/kleeb.git
-[submodule "KiCAD/lib/external/Salicylic-acid3"]
-	path = KiCAD/lib/external/Salicylic-acid3
-	url = https://github.com/Salicylic-acid3/KiCAD_FootPrint.git
 [submodule "KiCAD/lib/external/gh60"]
-	path = KiCAD/lib/external/gh60
+	path = lib/gh60
 	url = https://github.com/komar007/gh60.git

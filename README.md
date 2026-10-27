@@ -1,29 +1,42 @@
 # YM60JIS
 
-A hot-swappable 60% mechanical keyboard PCB with Japanese (JIS) layout, powered by the RP2040 microcontroller. It is compatible with most Poker and GH60-style 60% keyboard cases.
+A 60% mechanical keyboard PCB and plate with Japanese (JIS) layout, powered by the RP2040 microcontroller.
 
-![YM60JIS Art](image/ym60jis_art.jpg)
+Forked from [ymkn/YM60JIS](https://github.com/ymkn/YM60JIS).
 
-## Default Layout / Key Mapping
+## Contents
 
-Customize your key mapping from the default shown below using the [Vial](https://get.vial.today/) configurator.
+- `PCB/`: KiCAD project of the keyboard PCB
+- `Plate/`: KiCAD project of the switch plate
+- `lib/`: external KiCAD libraries (git submodules)
 
-![YM60JIS Layout](image/ym60jis_layout.png)
+## Requirements
 
-Supports 3u spacebar (requires 3u stabilizers) or 2.25u/2.75u spacebar with 2u stabilizers.
+KiCAD 8.x or higher
 
-## Specification
+## Dependencies
 
-- Supports Cherry MX-style switches
-- USB Type-C connector (USB 2.0)
-- Hot-swap sockets for mechanical switches
-- Dimensions: 285 × 94.6 × 1.6 mm (W × H × D)
-- Compatible with most 60% keyboard cases
-  - Note: Center and right bottom mounting holes are not included
+Clone with submodules:
 
-## Build Guide
+```sh
+git clone --recurse-submodules <url>
+# or, in an existing clone:
+git submodule update --init
+```
 
-See [doc/buildguide.md](doc/buildguide.md)
+### Package Manager Libraries
+
+Install the following library from KiCAD Package Manager:
+
+- marbastlib (https://github.com/ebastler/marbastlib)
+  - Install via the external ebastler KiCAD repository or from file
+
+### External libraries
+
+The following libraries are included as submodules:
+
+- gh60 (https://github.com/komar007/gh60)
+  - Components: Mounting hole
 
 ## LICENSE
 
