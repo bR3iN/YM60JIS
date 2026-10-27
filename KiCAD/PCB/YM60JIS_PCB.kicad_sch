@@ -713,7 +713,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4990,6 +4990,12 @@
 		(uuid "3c221193-2f72-4e73-b7b6-576d265e1c65")
 	)
 	(junction
+		(at 90.17 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fafd330-dd15-49de-b8ab-edf1b224854a")
+	)
+	(junction
 		(at 119.38 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5152,6 +5158,12 @@
 		(uuid "745913c2-c7c3-425b-9eb4-f5903373215d")
 	)
 	(junction
+		(at 96.52 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74c33861-7264-41c4-83b9-ded932880f33")
+	)
+	(junction
 		(at 121.92 13.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5200,6 +5212,12 @@
 		(uuid "7b080ebf-e057-4f3f-b4da-08ee781563d8")
 	)
 	(junction
+		(at 102.87 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dee87d5-2c0b-4a84-bee7-07cdfc6560b8")
+	)
+	(junction
 		(at 261.62 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5216,6 +5234,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fa8fbaa-b6d8-43c0-b56c-00ab00d6e413")
+	)
+	(junction
+		(at 109.22 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80bf1d62-1b80-4328-9028-c2d00afa407b")
 	)
 	(junction
 		(at 248.92 -6.35)
@@ -6359,13 +6383,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 44.45) (xy 109.22 48.26)
+			(xy 109.22 44.45) (xy 109.22 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "274dc463-0877-4883-91c3-9f803d069001")
+	)
+	(wire
+		(pts
+			(xy 95.25 46.99) (xy 96.52 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27a32830-5e66-4a6a-9e5c-5c92709cf8ae")
 	)
 	(wire
 		(pts
@@ -7089,6 +7123,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 46.99) (xy 96.52 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66327c66-250a-4db0-8293-a435de07026b")
+	)
+	(wire
+		(pts
 			(xy 172.72 53.34) (xy 172.72 54.61)
 		)
 		(stroke
@@ -7129,7 +7173,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 -21.59) (xy 90.17 78.74)
+			(xy 90.17 -21.59) (xy 90.17 41.91)
 		)
 		(stroke
 			(width 0)
@@ -7216,6 +7260,16 @@
 			(type default)
 		)
 		(uuid "70823285-7430-49b7-97c4-e4c0f4c43323")
+	)
+	(wire
+		(pts
+			(xy 102.87 40.64) (xy 102.87 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "719d5076-6bc7-4f07-8d32-ddd0115d5c2e")
 	)
 	(wire
 		(pts
@@ -7716,6 +7770,26 @@
 			(type default)
 		)
 		(uuid "9f4425d2-6000-41be-956c-e419b7890b73")
+	)
+	(wire
+		(pts
+			(xy 90.17 41.91) (xy 90.17 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a06a830b-968c-4443-b2bd-dcb697e98476")
+	)
+	(wire
+		(pts
+			(xy 109.22 45.72) (xy 109.22 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a15b0989-9c70-4335-9968-ba9a4d9c61de")
 	)
 	(wire
 		(pts
@@ -8549,7 +8623,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 -21.59) (xy 102.87 78.74)
+			(xy 102.87 -21.59) (xy 102.87 40.64)
 		)
 		(stroke
 			(width 0)
@@ -8789,6 +8863,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 40.64) (xy 104.14 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8a0f16a-9d36-4c5b-8fa7-61fad865eaed")
+	)
+	(wire
+		(pts
 			(xy 236.22 33.02) (xy 236.22 34.29)
 		)
 		(stroke
@@ -8819,7 +8903,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 45.72) (xy 96.52 48.26)
+			(xy 96.52 45.72) (xy 96.52 46.99)
 		)
 		(stroke
 			(width 0)
@@ -10931,6 +11015,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 110.49 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c9bdc0f0-8cc0-4f6d-a72f-8ccb6cf3f097")
 		)
@@ -11025,6 +11120,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 236.22 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 237.49 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11371,6 +11477,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 123.19 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bf58d9c9-75c9-4768-b957-7cb9e26c39a8")
 		)
@@ -11641,6 +11758,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 199.39 -11.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f3666c90-9455-4f7d-853e-759a0ffcf92e")
 		)
@@ -11651,6 +11779,85 @@
 			(project "YM60JIS_PCB"
 				(path "/3d120d70-8016-4f25-b980-ad33d03c9704"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 106.68 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "192e593f-db2b-4824-992c-7c4b237d18a2")
+		(property "Reference" "SW45_1"
+			(at 106.68 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 106.68 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 106.68 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b31fb00-0aeb-4a39-9bca-bb3339412d1e")
+		)
+		(pin "2"
+			(uuid "bbcca0aa-375b-4c19-b314-5ba969268ac4")
+		)
+		(instances
+			(project "YM60JIS_PCB"
+				(path "/3d120d70-8016-4f25-b980-ad33d03c9704"
+					(reference "SW45_1")
 					(unit 1)
 				)
 			)
@@ -11889,6 +12096,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 55.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b94b49b2-4ec2-47d0-845c-0d5fa20453e9")
 		)
@@ -12068,6 +12286,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 223.52 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 224.79 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12333,6 +12562,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 212.09 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cddd9bef-3595-464c-9041-ec7718fa8dcc")
 		)
@@ -12417,6 +12657,17 @@
 		)
 		(property "JLCPCB Part #" "C15525"
 			(at 139.7 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15525"
+			(at 143.51 150.495 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12619,6 +12870,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 237.49 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aaf1b97a-7530-42f5-92cc-4f79598e94cb")
 		)
@@ -12636,7 +12898,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 157.48 21.59 0)
+		(at 157.48 21.59 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12646,7 +12908,7 @@
 		(dnp no)
 		(uuid "27b25320-8d14-4872-9b73-ad434f3954ee")
 		(property "Reference" "SW35"
-			(at 157.48 16.51 0)
+			(at 157.48 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12656,7 +12918,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 157.48 17.78 0)
+			(at 157.48 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13343,6 +13605,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 64.77 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9894fad1-70d0-43a9-bacf-00ca8a0eac07")
 		)
@@ -13443,6 +13716,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 160.02 10.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 161.29 8.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13963,6 +14247,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 186.69 -11.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "59fdd2aa-a696-4aa5-ad99-1112989103dd")
 		)
@@ -14066,6 +14361,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 148.59 -11.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9e9827bb-2fd5-4a75-a790-9ea272dabfb0")
 		)
@@ -14147,6 +14453,17 @@
 		)
 		(property "JLCPCB Part #" "C9002"
 			(at 43.18 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C9002"
+			(at 53.34 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14387,7 +14704,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 33.02 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -14400,6 +14717,17 @@
 		)
 		(property "JLCPCB Part #" "C165948"
 			(at 33.02 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C165948"
+			(at 33.02 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14457,7 +14785,7 @@
 		(pin "B9"
 			(uuid "cfbb8c47-853e-4172-8271-f64b9adef40b")
 		)
-		(pin "S1"
+		(pin "SH"
 			(uuid "c0017f7e-2194-4313-8722-3ced5db605cf")
 		)
 		(instances
@@ -14973,6 +15301,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 97.79 8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bc5976d1-0399-4c5d-83a9-fe5f3200872c")
 		)
@@ -15057,6 +15396,17 @@
 		)
 		(property "JLCPCB Part #" "C1525"
 			(at 148.59 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 152.4 234.315 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15321,6 +15671,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 274.32 -10.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 275.59 -11.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15897,6 +16258,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2040"
+			(at 220.3959 264.795 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "28aea990-ec40-4b88-b012-bc92f28896e9")
 		)
@@ -16160,6 +16532,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 250.19 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7a2e9041-2a88-48c4-a4a9-51d1e96f0d95")
 		)
@@ -16260,6 +16643,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 274.32 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 275.59 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16446,6 +16840,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 198.12 10.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 199.39 8.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16642,6 +17047,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 275.59 8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "04bcca78-55f2-436b-a866-dc8d0ae9e09c")
 		)
@@ -16745,6 +17161,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 224.79 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e9f2a409-32d2-43f3-b605-cb37bde511f2")
 		)
@@ -16828,6 +17255,17 @@
 		)
 		(property "JLCPCB Part #" "C1525"
 			(at 201.93 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 204.47 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17109,6 +17547,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 212.09 8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fa33f513-282a-4fcb-89dd-32fe4661dcb5")
 		)
@@ -17271,6 +17720,17 @@
 		)
 		(property "JLCPCB Part #" "C1525"
 			(at 270.51 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 273.05 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17537,6 +17997,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C318884"
+			(at 322.58 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "895f1ba2-e963-4981-b90f-ac014ba817c7")
 		)
@@ -17626,6 +18097,17 @@
 		)
 		(property "JLCPCB Part #" "C1525"
 			(at 281.94 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 284.48 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18139,6 +18621,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 285.75 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c693fa69-ff55-4624-8bca-d61ff76b7d48")
 		)
@@ -18495,6 +18988,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 250.19 -11.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c80aab3d-a71f-44e3-a624-d272c2ecbe97")
 		)
@@ -18668,6 +19172,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 134.62 10.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 135.89 8.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18863,6 +19378,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 212.09 -11.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "354a2f04-7461-4169-8d7d-6747c5ab3e9c")
 		)
@@ -18957,6 +19483,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 274.32 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 275.59 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19464,6 +20001,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 199.39 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0aab60e0-3180-4dec-a411-40511812dae9")
 		)
@@ -19558,6 +20106,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 109.22 -10.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 110.49 -11.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19829,6 +20388,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15879"
+			(at 114.3 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "740b1aaa-900d-43e9-ad3a-d5926a84d10f")
 		)
@@ -19924,6 +20494,17 @@
 		)
 		(property "JLCPCB Part #" "C1525"
 			(at 213.36 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 215.9 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20188,6 +20769,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C5446"
+			(at 125.73 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e8ccc7cd-613a-4958-ae89-82aa5e632dbc")
 		)
@@ -20285,6 +20877,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 96.52 -10.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 97.79 -11.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20397,6 +21000,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 250.19 8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "096a4608-f0d2-49c9-915f-9655fc1523cb")
 		)
@@ -20491,6 +21105,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 134.62 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 135.89 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20757,6 +21382,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 172.72 -10.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 173.99 -11.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21036,6 +21672,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 262.89 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d9b3ce20-60e6-405c-ba0d-0b5a947eac7a")
 		)
@@ -21291,6 +21938,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 237.49 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ee135c66-eca4-4327-830d-450a0d035a16")
 		)
@@ -21391,6 +22049,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 274.32 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 275.59 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21503,6 +22172,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 224.79 -11.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c22526bd-2f6a-4598-96de-66f610175a5e")
 		)
@@ -21585,6 +22265,17 @@
 		)
 		(property "JLCPCB Part #" "C25190"
 			(at 189.23 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25190"
+			(at 189.23 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21703,6 +22394,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 173.99 8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e98b035a-4128-4042-9591-b6f1621ec66e")
 		)
@@ -21787,6 +22489,17 @@
 		)
 		(property "JLCPCB Part #" "C1525"
 			(at 267.97 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 271.78 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21962,6 +22675,17 @@
 		)
 		(property "JLCPCB Part #" "C1554"
 			(at 36.83 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1554"
+			(at 36.83 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22327,6 +23051,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 97.79 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "190a4774-6243-4bb7-957f-30c2579a1a05")
 		)
@@ -22430,6 +23165,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 123.19 8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2b1c15ca-dd12-454d-80c1-a7e15238490d")
 		)
@@ -22514,6 +23260,17 @@
 		)
 		(property "JLCPCB Part #" "C15525"
 			(at 110.49 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15525"
+			(at 114.3 150.495 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22623,6 +23380,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 134.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 135.89 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22814,6 +23582,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 123.19 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5bcc5536-f56f-4036-8ea8-ef2f2756a534")
 		)
@@ -22897,6 +23676,17 @@
 		)
 		(property "JLCPCB Part #" "C1525"
 			(at 236.22 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 238.76 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22994,6 +23784,17 @@
 		)
 		(property "JLCPCB Part #" "C1554"
 			(at 36.83 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1554"
+			(at 36.83 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23103,6 +23904,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 172.72 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 173.99 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23528,6 +24340,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 135.89 -11.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5c6a549c-bb73-43bd-9998-8a8908fdb3be")
 		)
@@ -23856,6 +24679,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25190"
+			(at 182.88 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "db7d1019-f380-4b08-88a2-c2013d266bc2")
 		)
@@ -23945,6 +24779,17 @@
 		)
 		(property "JLCPCB Part #" "C1525"
 			(at 224.79 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 227.33 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24054,6 +24899,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 96.52 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 97.79 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24241,6 +25097,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 261.62 -10.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 262.89 -11.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24595,6 +25462,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 237.49 -11.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7c636b00-1de3-496c-a6bc-59eea8caa2bc")
 		)
@@ -24782,6 +25660,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 262.89 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "afc6d653-64cd-46b7-b29e-832d3552bfdb")
 		)
@@ -24886,7 +25775,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac6dcabd-9467-41ed-827a-aa390c833cef")
 		(property "Reference" "R6"
-			(at 113.03 239.395 0)
+			(at 113.03 238.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24896,8 +25785,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1KΩ"
-			(at 113.03 241.935 0)
+		(property "Value" "1k"
+			(at 113.03 241.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24942,6 +25831,17 @@
 		)
 		(property "JLCPCB Part #" "C11702"
 			(at 110.49 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 113.03 238.7599 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25051,6 +25951,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 160.02 -10.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 161.29 -11.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25255,7 +26166,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae2c6161-a17a-453a-8414-60d07aa4baeb")
 		(property "Reference" "R7"
-			(at 121.92 239.395 0)
+			(at 121.92 238.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25265,8 +26176,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10kΩ"
-			(at 121.92 241.935 0)
+		(property "Value" "10k"
+			(at 121.92 241.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25311,6 +26222,17 @@
 		)
 		(property "JLCPCB Part #" "C25744"
 			(at 119.38 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 121.92 238.7599 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25429,6 +26351,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 161.29 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bab68577-d48d-45df-acab-275e6ea2a9e7")
 		)
@@ -25532,6 +26465,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 148.59 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c7c25e51-0950-44f1-b82e-26e0ad637eec")
 		)
@@ -25626,6 +26570,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 134.62 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 135.89 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25819,6 +26774,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2843335"
+			(at 140.97 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e29a8de9-5343-47d0-9e42-e272e95ef71c")
 		)
@@ -25949,6 +26915,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 173.99 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "805bbe4f-669f-40a4-b479-6e6e87706bf6")
 		)
@@ -26052,6 +27029,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 186.69 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "33acaa24-0792-439c-92c8-759b68d0a71b")
 		)
@@ -26146,6 +27134,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 236.22 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 237.49 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26328,6 +27327,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 198.12 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 199.39 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27169,6 +28179,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 212.09 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4efc9fd3-69bd-494a-8d97-86d7a5cf2531")
 		)
@@ -27430,6 +28451,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 186.69 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bc4e0829-f85c-4cc0-87ae-e83fd395fd03")
 		)
@@ -27533,6 +28565,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 224.79 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "03ec76ca-af94-4bf9-9723-0faf1f9bc6eb")
 		)
@@ -27627,6 +28670,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 172.72 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 173.99 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28144,6 +29198,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 224.79 8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "515e1307-639f-432f-a903-97567191b6d5")
 		)
@@ -28326,6 +29391,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 110.49 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b53e9d6a-7ed4-455b-8479-d37d33b930f9")
 		)
@@ -28420,6 +29496,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 160.02 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 161.29 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28603,6 +29690,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 92.71 44.45 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dbae699e-6680-4a6f-bd61-e85c1598829f")
+		(property "Reference" "SW44_2"
+			(at 92.71 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 92.71 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1.25u"
+			(at 92.71 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e675eff3-cd85-4b9e-af97-130b24db96a7")
+		)
+		(pin "2"
+			(uuid "1b3bb743-a926-4d80-93ed-b4b5c469cf66")
+		)
+		(instances
+			(project "YM60JIS_PCB"
+				(path "/3d120d70-8016-4f25-b980-ad33d03c9704"
+					(reference "SW44_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 236.22 10.16 90)
 		(unit 1)
@@ -28681,6 +29847,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 236.22 10.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 237.49 8.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28793,6 +29970,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 123.19 -11.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "88ed65db-36f1-4408-b5ee-281bf2cf363b")
 		)
@@ -28887,6 +30075,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 185.42 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 186.69 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28999,6 +30198,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 161.29 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "382d5bfa-4d72-41da-8ed9-f659d71b32f4")
 		)
@@ -29093,6 +30303,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 109.22 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 110.49 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29363,6 +30584,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 186.69 8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8406077d-920a-44ac-804e-d35f2f7abbed")
 		)
@@ -29457,6 +30689,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 147.32 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 148.59 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29654,7 +30897,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7938b1a-933e-4abb-bbf9-0ef9eb687f35")
 		(property "Reference" "R8"
-			(at 50.8 252.73 90)
+			(at 50.8 251.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29663,8 +30906,8 @@
 				)
 			)
 		)
-		(property "Value" "1K"
-			(at 50.8 255.27 90)
+		(property "Value" "1k"
+			(at 50.8 254 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29708,6 +30951,17 @@
 		)
 		(property "JLCPCB Part #" "C11702"
 			(at 50.8 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 50.8 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29890,6 +31144,17 @@
 		)
 		(property "JLCPCB Part #" "C1525"
 			(at 259.08 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 261.62 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30166,6 +31431,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 262.89 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "37cdcaf4-042d-478d-b009-f3ea4d149a54")
 		)
@@ -30344,6 +31620,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 210.82 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 212.09 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30603,6 +31890,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 199.39 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b4537bdb-d532-4111-b4f5-5b92e204ea1d")
 		)
@@ -30712,6 +32010,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 148.59 8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "95bbebd2-d727-457f-bbbb-c69e715ddd71")
 		)
@@ -30806,6 +32115,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 96.52 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 97.79 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30988,6 +32308,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 109.22 10.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420318"
+			(at 110.49 8.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31332,6 +32663,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420318"
+			(at 123.19 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "499b2369-abd4-401d-94c6-452b17712bb5")
 		)
@@ -31617,99 +32959,100 @@
 			"1797248f-8c66-40ac-8795-a04ef74b18ce" "187d30d3-2241-447a-b024-1f9ce70c90f9"
 			"188c3a23-d00e-4663-8100-e1e1ad14cd8f" "18bba106-654b-4930-9020-de2c4a889850"
 			"18cb170f-cc0f-46c6-932a-b103e7014e19" "18e96bce-95dc-4006-a131-d8bedc2ec6e7"
-			"195d6171-1684-4b93-9f3e-ad1112b3d424" "1a3ee947-e399-475f-b8cb-478340d6b435"
-			"1a77e79d-b62f-4bff-9110-3ab4a6733304" "1b55fbe0-c99e-4aac-a3df-aad6e3b8e875"
-			"1b5cb14f-e92f-4f86-9a4f-8cfd4ffba9e3" "1bad751e-3f8f-4bf5-8c96-055e02be6b79"
-			"1bb6db8a-35bd-4927-a193-38f15b27bb23" "1bd73f7e-0b18-4e58-9d5d-a759437f234d"
-			"1bf455a8-c716-47b0-afb4-762b08e415a6" "1c7097cd-3c82-425a-81c9-a9222db014fc"
-			"1cb1a839-a06c-46f7-861e-b3628c5d06c7" "1cb41c14-40bc-4e1d-a215-2e9e1fd6e193"
-			"1cdf25d4-350d-4e93-b119-25d80cbf43c1" "1ce5075f-2dd6-4e58-96b6-5ab7939eb25a"
-			"1cfafa0f-6ffb-428c-95e6-ac628688c9e6" "1e25c0bb-1389-4935-b769-47ce0b5bbe4d"
-			"1ea2d461-888d-4c81-ab1f-0edb5055a1ed" "1f224548-d060-492f-8184-240d3b97fee2"
-			"1fb3669f-3836-449f-b962-ba6f645e192a" "1fffc681-c3e9-4848-8f48-1d9c79b72474"
-			"20b05db5-a35d-44df-8106-8fde87681077" "2227398a-d830-4ed8-a2cf-abe982e951cd"
-			"2258e34f-f70e-4bf9-9c83-e4341df52114" "22f26c6f-dd24-4fbd-94fb-221c4943a954"
-			"236471e9-a313-4890-b403-af3b085a43de" "23c05c06-67d9-495e-bc7d-9cd718f60858"
-			"246f02af-45c4-480c-8768-530a217fa427" "25d189ed-68dc-47ce-bfb5-88780b137d38"
-			"26692f9a-6416-46d6-9dc5-804696069630" "268f69cb-c640-4a3d-b509-38ec84adac33"
-			"26fdd31e-3c89-4db9-bb19-54e30d4ff6c3" "274dc463-0877-4883-91c3-9f803d069001"
-			"2753e227-b301-4f97-b6a1-6808d8e2a62a" "27b25320-8d14-4872-9b73-ad434f3954ee"
-			"29194371-5ae6-47f4-a320-98b6976e7aaa" "29520cb6-60ec-4293-ab9e-8832fadaaad5"
-			"298e1ba8-a9c3-4550-aa99-eded1dfe6691" "29a2752b-ba80-4a0f-8d4b-0f79a126b28a"
-			"2a18760f-839d-49c9-addc-4c22f316ef99" "2a694489-b14a-4b0e-9e1b-c16a724b1ae2"
-			"2a9e3d43-b1cc-4233-9ebf-706cdf949bf4" "2abc2375-5d7f-490d-a748-2212c70ab611"
-			"2adf7299-461b-448c-89e6-b1e093e78a18" "2b40ef25-e814-4833-9650-0b0ae283677c"
-			"2c7c55a5-274f-48ef-9669-9b82baf9a615" "2ca44d07-6e86-4780-9711-f95305356056"
-			"2d429cca-f44a-4d6c-83f6-ee84dc780a89" "2e99bbca-71c5-42f3-a7ac-a9940121e5dd"
-			"2ee31d9f-9ffd-44cd-ba71-41047df880bf" "2eecdca8-5294-4a22-a04b-68917636618b"
-			"2f49cb1d-928d-4281-b22d-33a5a9581522" "31230680-a534-47b4-9a5d-e302f3f7ba83"
-			"3152f32d-efda-456f-a0d8-fc112b084862" "324b15da-786c-4a53-a5f3-633108d3659f"
-			"324e6c5e-6dbb-4e52-8716-0f4deb30db9c" "32eaeb95-8e69-4700-a275-a54acf81ff2b"
-			"34acd4ea-5cf9-49d8-9949-2734e6427c13" "34b0a3e4-e3e3-4c05-b983-2fd9235d3580"
-			"34e189a6-bca9-431e-9e65-d41a06bd4b0a" "352a00a9-49e5-43f0-9c9f-55fbd3182636"
-			"361cdf50-e511-4f62-a160-ccd8261d42c3" "36f00561-4bd1-46c8-bcdc-3bbfc995d9d8"
-			"3704c96a-ed79-4b4f-bf64-3cb0cb634cdb" "3750c39a-826b-40d3-acdc-803514b624bc"
-			"3774a51d-3da9-468d-b57a-d04de8aef89f" "3914bbde-6ed7-49de-a619-5ada3cb566e2"
-			"393c7e14-e11c-4256-b564-bc75a7f1ce62" "3974d236-5d27-43dd-bf2d-3eef5ae8ebc8"
-			"3b22dc83-fbb4-45f0-b30a-c3f2832e0b37" "3badaba5-b960-4801-a1ca-4036c9d2e423"
-			"3bb66dfd-aa41-4f14-865e-ebf1de1530ff" "3c221193-2f72-4e73-b7b6-576d265e1c65"
-			"3cb376ba-616f-420b-8948-2eedf4fb425a" "3cb576b2-f762-430a-93c8-311d2a4c5066"
-			"3e02e3a9-1904-42aa-8bf7-2d122a14e303" "3e4c3e1d-a4a9-4791-82e0-6f9ec363c3c5"
-			"3eadafc4-d980-423f-a5e8-366dbf2cf9d1" "3ec3cc94-24ab-45cd-9d1a-36b44f5a9bd8"
-			"3ec6392b-5da6-43f3-a879-770d6e7a3393" "3f51616b-3e61-4449-b954-3666bb70f7df"
-			"408e6640-e0a7-4e94-985e-2e7819dae354" "410ceff8-d03f-4a84-a59b-e5d1ff7338db"
-			"413d1d8f-7b8d-4934-83cd-1e320378b5cd" "4299922e-b469-4aca-8f56-dd8716cedb87"
-			"42fc474a-73f6-422e-8e1f-0f67ecff81ba" "439216cd-bb7c-4d21-ac00-634a0538e534"
-			"443719a6-4de9-4c87-8330-1ffa8ecf2107" "4460039e-d931-4a58-bdde-a8ee9b0624ee"
-			"449665f1-a5b5-4b45-9116-14fb32a70168" "44d35a1f-d0f8-4021-ba6e-9577de6f7c53"
-			"44e19e0d-7fe7-412e-bda4-75393aa076fa" "4589a4d2-41d4-4473-bd89-17710bd3013d"
-			"458d3eb2-d6d8-4cac-ae8f-42cb94279be7" "45a47b5f-8d82-4277-a88a-128192bae37f"
-			"46166bcd-c6fd-4af2-ae17-0e2c4ac71846" "468435ff-6415-4178-99ac-826ae9afe499"
-			"46dd3371-fe27-4bc8-8f3c-fa90a3ca6766" "47570222-a34d-4638-b564-387284195321"
-			"47a82874-6a3a-4d80-ae88-3bb5f70733c2" "488807f8-1ce8-4cab-a9c4-25f8b2f395f7"
-			"48e586c7-0af4-47bc-b138-07524cc2a729" "495707ea-6694-4704-8c0f-ce8481ddbc10"
-			"49937ed5-7527-4e8b-9386-6919003b334e" "49df4edd-0051-4cb1-9821-e3740bee518b"
-			"4a4c40cd-4c14-4952-8011-e765f1fb0350" "4ae17bff-5dc4-4dad-831e-8bfcca97a77b"
-			"4b4872ef-b893-402c-9046-a8edff0a5b89" "4b9cc595-78dc-4a28-974d-07c1c6edfa98"
-			"4c4342f8-f7df-42cf-a0c3-0bd09d13b525" "4caa7e0c-b694-4298-97e5-855e2a1524d9"
-			"4ceb96dd-eb3b-44c2-afc1-b871ac5e1a16" "4d06dc40-8f72-46a3-974e-f48a6c382164"
-			"4d14c58d-aaaf-42a0-b5ec-f0036979b628" "4d7742b2-9d29-40a2-a773-0553e336b16b"
-			"4df945cd-ae17-4eb0-828d-d29d3b1a64de" "4e33e573-d564-4638-b911-6f131ce22731"
-			"4e62143a-bbda-4b13-8c2a-7f949739832e" "4e9d3756-442a-4b32-92bd-6f57a75338d7"
-			"4ffdf712-05c0-4294-8076-d8307a60a88e" "519ccd63-9b71-4d98-9dd5-8535532bf918"
-			"51b91e30-3f12-4bdd-ac55-f44d8059e510" "5221b07f-1e97-49b8-965f-0855538790d8"
-			"52ecfe92-9465-4658-afeb-4971218fd1bd" "53277c14-8c92-4c87-a629-aef9cbe2aa18"
-			"536b590a-eae9-4303-aeef-84b26d216345" "5375f484-2cf3-494a-bd3e-6962594f244e"
-			"537f15a7-153b-4e45-86cc-e1d418e63a8c" "53b2efa7-da9f-4bb4-8de9-e634b285266e"
-			"53d37c73-b5ee-4a47-8625-b62fb68656f8" "53da27d1-097c-46d1-b2a2-55d6c5d27023"
-			"53e73aff-9ada-40e3-9262-4374082eb7f7" "553d52d8-6558-44a9-bc4d-fb23b5d835ae"
-			"560d7731-3a7e-4516-80d1-026965dd24da" "57dbb5b4-65eb-455d-8d8f-6fd6750f7c54"
-			"59e3be74-fd8e-4601-823c-8e715a6a5666" "59e3d865-3220-4113-98db-0944077feb89"
-			"5ab7b129-0188-4736-9a6e-f11be6da55cc" "5c45d16d-a64f-4aba-a7af-399b20c2ae0a"
-			"5c5c066f-8714-4a25-b0c7-ee61287c93e5" "5cc7e1ef-378f-44a0-982d-393b8c945354"
-			"5d57bd64-8256-4735-a9e1-8f90519bbe15" "5dbd90db-c806-4cc0-b2e8-01f9bcad909e"
-			"5def9d5c-d4fb-4f94-b363-0daacdd5cd2b" "5ebeee44-9227-40c1-80d4-5fb6730ef1fb"
-			"606dedda-3301-47e4-a4ba-33e730f25a2e" "60cfd483-0020-4557-93fd-81bea319a89c"
-			"60d37e61-0336-4e04-bea0-9f2dfc4fa2b6" "6141dcbd-2cbb-4e6e-8aed-ff7b60ca259c"
-			"617e05f9-204f-4639-9bf6-fbea8009b9fc" "61dd420a-4f8c-485f-a8e8-8c77c33fe476"
-			"620cb574-813a-4f48-b6bd-969a1d33edf4" "6271059a-8ce9-4819-bc23-fb13f7133b6a"
-			"62905a34-b071-473b-af0e-266b8e52d665" "6292970f-e4ac-4f5d-be94-44e04c746eaf"
-			"62d88867-36f7-485e-b80c-5e9a59e4df33" "62e66e73-54b7-474d-be24-f6faed6730a5"
-			"62fb85ad-5559-409b-8f09-48139caaaf7a" "6399b932-9b7d-4e42-b54f-e8e562927560"
-			"63eb1425-5546-4dd8-80be-394f3ec3e770" "64527467-2f64-4f6f-97d1-3531e3fdbe5f"
-			"6585a7a8-d836-4856-9e8f-46ee74861bad" "66972434-9142-4d90-8110-a60fdd2fdbf4"
-			"66cdccb3-9278-4ff7-8737-421ccbc008fb" "67312144-5195-4181-8f88-a1639f2bbf89"
-			"6745966d-8908-4d91-8401-f114fbe1a51b" "675ab86f-7d49-49e1-a8fb-030f8786ae8b"
-			"6802f329-b3a6-44fd-ad9c-abd28714c157" "69023f13-7e11-4052-bac6-a19cb6e705e2"
-			"691194d5-9acb-447f-b941-e2461b5d841c" "691696bd-dc46-4d76-8d7b-3786e66bc719"
-			"693fe974-bdce-48d6-844d-b2fa7521e561" "696fa1d3-d7bc-4db7-82bd-d19d286ebd99"
-			"69bb1885-152b-4345-b45c-d542e011b236" "6a478b21-a44d-4b2b-9f5d-5487e723199a"
-			"6ad9b03f-c3d0-4270-9078-bf204c58a0ab" "6b10d6bd-61a0-41c1-b9b3-65dbbca33b4b"
-			"6ce8883a-ab56-431d-b299-fb701b70c480" "6cf51c04-2f01-4c78-893a-e14a0800f71a"
-			"6cfd87b5-240d-4789-8b12-346da8555dbd" "6df2db01-7c1b-44bd-9c05-23f57d85a076"
-			"6e643bed-efbf-4f16-8f3d-a88e783f1b01" "6fde1cf0-2548-4acd-b4b1-aaeacb7743ec"
-			"705df8bb-3675-4698-9862-5f3f4399f90f" "707a39f9-32fd-4809-975e-d94809334364"
-			"70823285-7430-49b7-97c4-e4c0f4c43323" "71f4894e-516f-40ce-b9cc-e1e5d61e90cf"
+			"192e593f-db2b-4824-992c-7c4b237d18a2" "195d6171-1684-4b93-9f3e-ad1112b3d424"
+			"1a3ee947-e399-475f-b8cb-478340d6b435" "1a77e79d-b62f-4bff-9110-3ab4a6733304"
+			"1b55fbe0-c99e-4aac-a3df-aad6e3b8e875" "1b5cb14f-e92f-4f86-9a4f-8cfd4ffba9e3"
+			"1bad751e-3f8f-4bf5-8c96-055e02be6b79" "1bb6db8a-35bd-4927-a193-38f15b27bb23"
+			"1bd73f7e-0b18-4e58-9d5d-a759437f234d" "1bf455a8-c716-47b0-afb4-762b08e415a6"
+			"1c7097cd-3c82-425a-81c9-a9222db014fc" "1cb1a839-a06c-46f7-861e-b3628c5d06c7"
+			"1cb41c14-40bc-4e1d-a215-2e9e1fd6e193" "1cdf25d4-350d-4e93-b119-25d80cbf43c1"
+			"1ce5075f-2dd6-4e58-96b6-5ab7939eb25a" "1cfafa0f-6ffb-428c-95e6-ac628688c9e6"
+			"1e25c0bb-1389-4935-b769-47ce0b5bbe4d" "1ea2d461-888d-4c81-ab1f-0edb5055a1ed"
+			"1f224548-d060-492f-8184-240d3b97fee2" "1fb3669f-3836-449f-b962-ba6f645e192a"
+			"1fffc681-c3e9-4848-8f48-1d9c79b72474" "20b05db5-a35d-44df-8106-8fde87681077"
+			"2227398a-d830-4ed8-a2cf-abe982e951cd" "2258e34f-f70e-4bf9-9c83-e4341df52114"
+			"22f26c6f-dd24-4fbd-94fb-221c4943a954" "236471e9-a313-4890-b403-af3b085a43de"
+			"23c05c06-67d9-495e-bc7d-9cd718f60858" "246f02af-45c4-480c-8768-530a217fa427"
+			"25d189ed-68dc-47ce-bfb5-88780b137d38" "26692f9a-6416-46d6-9dc5-804696069630"
+			"268f69cb-c640-4a3d-b509-38ec84adac33" "26fdd31e-3c89-4db9-bb19-54e30d4ff6c3"
+			"274dc463-0877-4883-91c3-9f803d069001" "2753e227-b301-4f97-b6a1-6808d8e2a62a"
+			"27b25320-8d14-4872-9b73-ad434f3954ee" "29194371-5ae6-47f4-a320-98b6976e7aaa"
+			"29520cb6-60ec-4293-ab9e-8832fadaaad5" "298e1ba8-a9c3-4550-aa99-eded1dfe6691"
+			"29a2752b-ba80-4a0f-8d4b-0f79a126b28a" "2a18760f-839d-49c9-addc-4c22f316ef99"
+			"2a694489-b14a-4b0e-9e1b-c16a724b1ae2" "2a9e3d43-b1cc-4233-9ebf-706cdf949bf4"
+			"2abc2375-5d7f-490d-a748-2212c70ab611" "2adf7299-461b-448c-89e6-b1e093e78a18"
+			"2b40ef25-e814-4833-9650-0b0ae283677c" "2c7c55a5-274f-48ef-9669-9b82baf9a615"
+			"2ca44d07-6e86-4780-9711-f95305356056" "2d429cca-f44a-4d6c-83f6-ee84dc780a89"
+			"2e99bbca-71c5-42f3-a7ac-a9940121e5dd" "2ee31d9f-9ffd-44cd-ba71-41047df880bf"
+			"2eecdca8-5294-4a22-a04b-68917636618b" "2f49cb1d-928d-4281-b22d-33a5a9581522"
+			"31230680-a534-47b4-9a5d-e302f3f7ba83" "3152f32d-efda-456f-a0d8-fc112b084862"
+			"324b15da-786c-4a53-a5f3-633108d3659f" "324e6c5e-6dbb-4e52-8716-0f4deb30db9c"
+			"32eaeb95-8e69-4700-a275-a54acf81ff2b" "34acd4ea-5cf9-49d8-9949-2734e6427c13"
+			"34b0a3e4-e3e3-4c05-b983-2fd9235d3580" "34e189a6-bca9-431e-9e65-d41a06bd4b0a"
+			"352a00a9-49e5-43f0-9c9f-55fbd3182636" "361cdf50-e511-4f62-a160-ccd8261d42c3"
+			"36f00561-4bd1-46c8-bcdc-3bbfc995d9d8" "3704c96a-ed79-4b4f-bf64-3cb0cb634cdb"
+			"3750c39a-826b-40d3-acdc-803514b624bc" "3774a51d-3da9-468d-b57a-d04de8aef89f"
+			"3914bbde-6ed7-49de-a619-5ada3cb566e2" "393c7e14-e11c-4256-b564-bc75a7f1ce62"
+			"3974d236-5d27-43dd-bf2d-3eef5ae8ebc8" "3b22dc83-fbb4-45f0-b30a-c3f2832e0b37"
+			"3badaba5-b960-4801-a1ca-4036c9d2e423" "3bb66dfd-aa41-4f14-865e-ebf1de1530ff"
+			"3c221193-2f72-4e73-b7b6-576d265e1c65" "3cb376ba-616f-420b-8948-2eedf4fb425a"
+			"3cb576b2-f762-430a-93c8-311d2a4c5066" "3e02e3a9-1904-42aa-8bf7-2d122a14e303"
+			"3e4c3e1d-a4a9-4791-82e0-6f9ec363c3c5" "3eadafc4-d980-423f-a5e8-366dbf2cf9d1"
+			"3ec3cc94-24ab-45cd-9d1a-36b44f5a9bd8" "3ec6392b-5da6-43f3-a879-770d6e7a3393"
+			"3f51616b-3e61-4449-b954-3666bb70f7df" "408e6640-e0a7-4e94-985e-2e7819dae354"
+			"410ceff8-d03f-4a84-a59b-e5d1ff7338db" "413d1d8f-7b8d-4934-83cd-1e320378b5cd"
+			"4299922e-b469-4aca-8f56-dd8716cedb87" "42fc474a-73f6-422e-8e1f-0f67ecff81ba"
+			"439216cd-bb7c-4d21-ac00-634a0538e534" "443719a6-4de9-4c87-8330-1ffa8ecf2107"
+			"4460039e-d931-4a58-bdde-a8ee9b0624ee" "449665f1-a5b5-4b45-9116-14fb32a70168"
+			"44d35a1f-d0f8-4021-ba6e-9577de6f7c53" "44e19e0d-7fe7-412e-bda4-75393aa076fa"
+			"4589a4d2-41d4-4473-bd89-17710bd3013d" "458d3eb2-d6d8-4cac-ae8f-42cb94279be7"
+			"45a47b5f-8d82-4277-a88a-128192bae37f" "46166bcd-c6fd-4af2-ae17-0e2c4ac71846"
+			"468435ff-6415-4178-99ac-826ae9afe499" "46dd3371-fe27-4bc8-8f3c-fa90a3ca6766"
+			"47570222-a34d-4638-b564-387284195321" "47a82874-6a3a-4d80-ae88-3bb5f70733c2"
+			"488807f8-1ce8-4cab-a9c4-25f8b2f395f7" "48e586c7-0af4-47bc-b138-07524cc2a729"
+			"495707ea-6694-4704-8c0f-ce8481ddbc10" "49937ed5-7527-4e8b-9386-6919003b334e"
+			"49df4edd-0051-4cb1-9821-e3740bee518b" "4a4c40cd-4c14-4952-8011-e765f1fb0350"
+			"4ae17bff-5dc4-4dad-831e-8bfcca97a77b" "4b4872ef-b893-402c-9046-a8edff0a5b89"
+			"4b9cc595-78dc-4a28-974d-07c1c6edfa98" "4c4342f8-f7df-42cf-a0c3-0bd09d13b525"
+			"4caa7e0c-b694-4298-97e5-855e2a1524d9" "4ceb96dd-eb3b-44c2-afc1-b871ac5e1a16"
+			"4d06dc40-8f72-46a3-974e-f48a6c382164" "4d14c58d-aaaf-42a0-b5ec-f0036979b628"
+			"4d7742b2-9d29-40a2-a773-0553e336b16b" "4df945cd-ae17-4eb0-828d-d29d3b1a64de"
+			"4e33e573-d564-4638-b911-6f131ce22731" "4e62143a-bbda-4b13-8c2a-7f949739832e"
+			"4e9d3756-442a-4b32-92bd-6f57a75338d7" "4ffdf712-05c0-4294-8076-d8307a60a88e"
+			"519ccd63-9b71-4d98-9dd5-8535532bf918" "51b91e30-3f12-4bdd-ac55-f44d8059e510"
+			"5221b07f-1e97-49b8-965f-0855538790d8" "52ecfe92-9465-4658-afeb-4971218fd1bd"
+			"53277c14-8c92-4c87-a629-aef9cbe2aa18" "536b590a-eae9-4303-aeef-84b26d216345"
+			"5375f484-2cf3-494a-bd3e-6962594f244e" "537f15a7-153b-4e45-86cc-e1d418e63a8c"
+			"53b2efa7-da9f-4bb4-8de9-e634b285266e" "53d37c73-b5ee-4a47-8625-b62fb68656f8"
+			"53da27d1-097c-46d1-b2a2-55d6c5d27023" "53e73aff-9ada-40e3-9262-4374082eb7f7"
+			"553d52d8-6558-44a9-bc4d-fb23b5d835ae" "560d7731-3a7e-4516-80d1-026965dd24da"
+			"57dbb5b4-65eb-455d-8d8f-6fd6750f7c54" "59e3be74-fd8e-4601-823c-8e715a6a5666"
+			"59e3d865-3220-4113-98db-0944077feb89" "5ab7b129-0188-4736-9a6e-f11be6da55cc"
+			"5c45d16d-a64f-4aba-a7af-399b20c2ae0a" "5c5c066f-8714-4a25-b0c7-ee61287c93e5"
+			"5cc7e1ef-378f-44a0-982d-393b8c945354" "5d57bd64-8256-4735-a9e1-8f90519bbe15"
+			"5dbd90db-c806-4cc0-b2e8-01f9bcad909e" "5def9d5c-d4fb-4f94-b363-0daacdd5cd2b"
+			"5ebeee44-9227-40c1-80d4-5fb6730ef1fb" "606dedda-3301-47e4-a4ba-33e730f25a2e"
+			"60cfd483-0020-4557-93fd-81bea319a89c" "60d37e61-0336-4e04-bea0-9f2dfc4fa2b6"
+			"6141dcbd-2cbb-4e6e-8aed-ff7b60ca259c" "617e05f9-204f-4639-9bf6-fbea8009b9fc"
+			"61dd420a-4f8c-485f-a8e8-8c77c33fe476" "620cb574-813a-4f48-b6bd-969a1d33edf4"
+			"6271059a-8ce9-4819-bc23-fb13f7133b6a" "62905a34-b071-473b-af0e-266b8e52d665"
+			"6292970f-e4ac-4f5d-be94-44e04c746eaf" "62d88867-36f7-485e-b80c-5e9a59e4df33"
+			"62e66e73-54b7-474d-be24-f6faed6730a5" "62fb85ad-5559-409b-8f09-48139caaaf7a"
+			"6399b932-9b7d-4e42-b54f-e8e562927560" "63eb1425-5546-4dd8-80be-394f3ec3e770"
+			"64527467-2f64-4f6f-97d1-3531e3fdbe5f" "6585a7a8-d836-4856-9e8f-46ee74861bad"
+			"66972434-9142-4d90-8110-a60fdd2fdbf4" "66cdccb3-9278-4ff7-8737-421ccbc008fb"
+			"67312144-5195-4181-8f88-a1639f2bbf89" "6745966d-8908-4d91-8401-f114fbe1a51b"
+			"675ab86f-7d49-49e1-a8fb-030f8786ae8b" "6802f329-b3a6-44fd-ad9c-abd28714c157"
+			"69023f13-7e11-4052-bac6-a19cb6e705e2" "691194d5-9acb-447f-b941-e2461b5d841c"
+			"691696bd-dc46-4d76-8d7b-3786e66bc719" "693fe974-bdce-48d6-844d-b2fa7521e561"
+			"696fa1d3-d7bc-4db7-82bd-d19d286ebd99" "69bb1885-152b-4345-b45c-d542e011b236"
+			"6a478b21-a44d-4b2b-9f5d-5487e723199a" "6ad9b03f-c3d0-4270-9078-bf204c58a0ab"
+			"6b10d6bd-61a0-41c1-b9b3-65dbbca33b4b" "6ce8883a-ab56-431d-b299-fb701b70c480"
+			"6cf51c04-2f01-4c78-893a-e14a0800f71a" "6cfd87b5-240d-4789-8b12-346da8555dbd"
+			"6df2db01-7c1b-44bd-9c05-23f57d85a076" "6e643bed-efbf-4f16-8f3d-a88e783f1b01"
+			"6fde1cf0-2548-4acd-b4b1-aaeacb7743ec" "705df8bb-3675-4698-9862-5f3f4399f90f"
+			"707a39f9-32fd-4809-975e-d94809334364" "70823285-7430-49b7-97c4-e4c0f4c43323"
+			"719d5076-6bc7-4f07-8d32-ddd0115d5c2e" "71f4894e-516f-40ce-b9cc-e1e5d61e90cf"
 			"727c4790-9454-4f8b-94c9-74cd3319c277" "72ef05d8-eede-4e70-b5c6-cbc203500859"
 			"745913c2-c7c3-425b-9eb4-f5903373215d" "74fd490c-f366-4a4c-92b3-d9df6aebea8c"
 			"7530472a-3fe8-41d4-a24e-9c954173d802" "75532f81-7cec-4ec5-9038-72289dc07f6f"
@@ -31720,11 +33063,12 @@
 			"78a648de-f797-4a3d-959b-9a25e60c5436" "7953aa71-069d-41a4-904c-597997aaf561"
 			"79a3495d-9379-4e69-9a35-c0f968257b95" "7cd17589-76b0-425a-a8b9-9a9aa2ec651f"
 			"7d07a422-5f90-43b9-9781-5476868e39e7" "7dc707e4-5450-4c4b-8127-609c38fd5ec7"
-			"7dfd6cb1-b2a6-4409-b52f-67a93a8db2ef" "7e08c59e-f4b3-4faa-b126-2b6820507368"
-			"7e10f2e9-4fa7-4049-84d7-812519ddf894" "7e150ca6-56b9-4ab2-bf9f-815ae5325a96"
-			"7e66ab2f-0dd0-47e6-b5e3-e4852291148b" "7f36df44-e24e-4dd2-92c2-eae2b06d1823"
-			"7fa8fbaa-b6d8-43c0-b56c-00ab00d6e413" "7fb74c59-a070-4c0b-b536-9b32998d2a28"
-			"8041b21e-82f2-4db5-a740-96c5302f3621" "8111a2b0-1c92-4480-be10-abb8de41fdd5"
+			"7dee87d5-2c0b-4a84-bee7-07cdfc6560b8" "7dfd6cb1-b2a6-4409-b52f-67a93a8db2ef"
+			"7e08c59e-f4b3-4faa-b126-2b6820507368" "7e10f2e9-4fa7-4049-84d7-812519ddf894"
+			"7e150ca6-56b9-4ab2-bf9f-815ae5325a96" "7e66ab2f-0dd0-47e6-b5e3-e4852291148b"
+			"7f36df44-e24e-4dd2-92c2-eae2b06d1823" "7fa8fbaa-b6d8-43c0-b56c-00ab00d6e413"
+			"7fb74c59-a070-4c0b-b536-9b32998d2a28" "8041b21e-82f2-4db5-a740-96c5302f3621"
+			"80bf1d62-1b80-4328-9028-c2d00afa407b" "8111a2b0-1c92-4480-be10-abb8de41fdd5"
 			"81de653f-c019-4304-9c09-b99de3f66017" "84051d6c-2178-43ea-a3a0-29ccba4e2417"
 			"84996dc7-2e5a-41d6-98ce-99a290fbab17" "854af7cd-82ce-46cd-859b-4b8b4e74f45f"
 			"87436c62-2bb0-488d-bf79-6016c5ecb0c1" "874e2948-c910-48f1-b6a6-2188e0972ff7"
@@ -31756,89 +33100,90 @@
 			"9d3ae15b-49cb-4721-9055-b8ce419a8e6a" "9e276ed9-d687-4645-9ba5-51ca990f61d6"
 			"9e885e39-dede-4ebf-97e3-3ffa96e82e21" "9f056974-e88f-47f2-a75a-81dbdf531a9d"
 			"9f4425d2-6000-41be-956c-e419b7890b73" "a1381739-869e-4592-91f6-49949465c329"
-			"a15d9d5d-9904-4ea2-8562-dae50520b2ff" "a172edf4-f1bd-4db2-8563-c8cbc290e88a"
-			"a19a565a-ba7d-42ed-bf19-0f4f8147b730" "a212a22b-ed05-422c-9b10-dc7b833f5ca9"
-			"a28e0a57-374a-4004-a13f-b3d81084b8bb" "a3ca4531-aba4-4124-9d8d-2d20eb0ba4b1"
-			"a53c8eae-62b5-436c-a155-b39f28a50913" "a5cd2652-7555-43bf-80e9-d92b200097d5"
-			"a66d5b53-5da4-4586-a91f-b2aa006ea0b3" "a763fc89-d1d0-438b-aa4c-b24d4699548a"
-			"a78f60fc-e6ec-4fc6-a1fe-ae8fd37252dd" "a7f12d3a-2408-4b5f-8974-2eff445ed612"
-			"a8323fc1-dee1-48fb-9b38-97d1940804ca" "a9b088e9-7918-4e8c-9617-c4c4d0b4272a"
-			"a9b6ea6c-bd67-42b0-b093-790c004cbeb0" "a9bcc06e-646e-4479-b3f4-dfff2c515e38"
-			"aa19acb8-5db2-40ca-b70d-c9d50679ae9f" "ab78be4a-549d-4876-a3bc-27116d89ad6a"
-			"abb3a164-6f75-422f-8c6a-131b55585cab" "abf5b7df-566e-4fae-99b3-cf66730a5557"
-			"ac3c69e7-c6ad-4016-b089-2dc547cdecc5" "ac9c871c-0abd-4aa1-b848-7a99835ecb42"
-			"ad0a637d-c02b-4563-8de2-096fc6cc47d2" "adf97e79-2bca-4ce7-9b0d-0ac49f291536"
-			"aed21aa0-906c-4d54-ad77-0c4c98f4de5d" "aee2ed20-4115-44b5-bcb4-aee3fa1334e6"
-			"af2d5922-4933-4a28-bf21-ab910e0b872d" "af44cdf1-4b67-4c07-bc57-275b7d7db780"
-			"af5d96d6-94ba-4575-846e-fe8e27df3950" "af690711-aa02-4a0d-828c-b72da4fd96f4"
-			"b0720fee-3876-48a5-b044-504d7cd41e43" "b10290e0-90e1-4334-a6d3-7ffbed5b28dc"
-			"b114ce00-907f-4912-8446-f8f095289a19" "b1bcee45-65de-434f-b1b1-68e4d99f1c14"
-			"b1d0012d-b20e-4071-b1a5-07b21f96ff1b" "b1fedb49-c863-4932-b067-0f9cb56c0b18"
-			"b34d3c7b-4406-4821-9ef8-eeb62c12ca2a" "b4067766-ad3f-4490-a51c-4cad6a2b2910"
-			"b49cbaac-89c0-4cd4-830b-29772c331128" "b4ddd82c-7c9e-438d-a96c-397934a2af17"
-			"b4f7f616-5105-476e-8d78-7146ef5f5da4" "b5447c3f-6144-4ad2-8b4c-b8f4f7d5d043"
-			"b5d5fefc-deed-414c-b064-204c3ad480ae" "b644bdf7-4d47-46a0-9523-dd9a92b2f0db"
-			"b652d0c6-7c85-45e5-a546-2d899be7f534" "b6d07ef1-c94f-418f-8daf-c8c3cd9b6508"
-			"b6fea4c0-6fe8-4f8a-9356-04909d8aa0af" "b70d2e01-59f3-4815-a61a-67770e7cd904"
-			"b7940b9f-66a8-445f-8519-bf584deeebaa" "b83550e1-bcc4-4832-872e-78922cccf04d"
-			"b8c81eec-f9c1-4cbf-9618-3e8a7e69e838" "ba4b9d5f-c299-4809-bda7-26cb3c329860"
-			"ba624e6e-6862-4b78-a5cc-7e8c31709ab6" "baa5f3b6-dc82-4d5b-8b26-45125e43e6f9"
-			"baa83a8d-aa8a-4d03-8581-3a33a0e281f3" "baf5dcb6-5659-41a1-bb77-1814ab187197"
-			"bb1bcfea-36d3-4770-b1ec-678bf7090891" "bb5c68fa-c24d-422a-bf01-b9608df3013b"
-			"bb72446c-7e7d-416e-bff6-37a145a1030e" "bb911090-ba3d-4dc0-94ae-f99ca4d0b1d6"
-			"bc4178ac-dd9d-4000-a807-9266752d3846" "bc5dd621-c338-4c7e-b958-59fea6dcc0e8"
-			"bc5e5075-3579-4520-bd89-d8e48ac46d7f" "bc665181-07e5-41a4-9efb-143c3052e667"
-			"bcf51d7a-c452-40ee-8e2f-b56d88fd52bc" "bcf7ca1d-5609-41e5-b657-3d8f1a4ba186"
-			"bd63d21d-4263-48c2-bf40-66fc10795fd9" "bd70b660-2c94-418e-8607-f00ae8982c6b"
-			"c0091b59-5b97-4d45-be5a-f80b2a040c95" "c12ed87c-3992-473d-bf9a-3fcab1a1fe26"
-			"c1538815-6656-4801-99c0-92fe52ba18e5" "c1cc8b5c-cdc2-42ef-ad80-0e6d11bb37fe"
-			"c2d58513-24fd-4eae-8baa-ce726e4ba902" "c369af62-da2f-4a7d-b328-6b28332d7d16"
-			"c4595133-01b1-4b25-aa16-f540ed01baaf" "c469ce29-b94b-4c4c-b698-67a0e8d0c5d2"
-			"c5294ae5-7bbf-4899-a0bd-379d630f44fd" "c5605423-0e4e-44aa-8ff8-404fa827ef0e"
-			"c5b5f1cd-4ebe-4a9e-be12-a55ecb0395aa" "c65c0956-dea0-4cea-a2e2-893627666a5c"
-			"c78a974b-188f-4c74-ba20-3232878792b4" "c7f3c754-05a7-472c-bc51-6cb6ac5d5cf9"
-			"c8357072-ae57-4749-bb0d-b85d68b8bcea" "c84036d1-1363-48ec-bfd3-91934d776587"
-			"c8e303c1-d98c-4591-871b-5e9ca0a65456" "c987d9c6-88be-4d17-89d9-88ac4b871026"
-			"c9dbeebf-888d-4426-b0e2-93febb9f670d" "ca741e57-79ca-4665-97e3-21b0d684fbba"
-			"ca948ae0-ddbc-43be-b779-30ac0b6286e9" "cac200b5-41c6-423f-9914-3604848d8dc9"
-			"cb01102a-a3a4-4f4e-9a3c-c08a5b9d74dc" "cb2cc550-8f9f-4295-a9ee-5ad17215743e"
-			"cbc32b90-b0f7-459c-8958-4926ce70e142" "cda15405-7e86-4779-b182-24d1d5020245"
-			"ce0c8b2b-e7f4-49f7-9255-7d527a75f243" "ce15ca92-133a-4e7f-90a2-830dd577d351"
-			"ce3b8c5c-d352-4314-a996-86a5ee78aa9e" "cf225948-3e98-4bb8-b5fe-94443e922fe3"
-			"cf27e125-ff2b-4e54-8015-4f9737992240" "cf5c423c-a8a6-4746-a16d-5238d6559806"
-			"cf5f35bb-016d-44db-95de-dd8b8db96398" "cf7653bb-23df-4149-9c52-82f6e9decd24"
-			"cfbec8a4-2aac-4dcb-b3f6-a724063a3872" "d02ed8c2-db3f-46a0-8007-c0ba8aaacfff"
-			"d036ecf9-89f7-448f-bf1a-30e9186ae19e" "d049969e-ff1e-44a8-9bad-b18a7f3f3488"
-			"d0622e41-9f49-4054-8d06-063f94ae4348" "d143b37d-31da-4c48-a321-67b30bec3128"
-			"d1ab7b4c-3b76-43ed-8b0b-568dcd6f800b" "d1b14a07-9190-445b-ac4d-77edcc0bc0dd"
-			"d2022b7b-753f-4b50-8fb5-4fb4b7745dfc" "d213d8d6-0da6-4f8c-a73a-184e8b15e6b6"
-			"d24ba146-519e-4406-b6bb-9a17b18be108" "d2845f49-097a-420d-90b1-3ecb75ac3a8a"
-			"d2e4aa50-e5f7-4465-a58d-7142263a380e" "d2f07186-3110-4c5b-882f-137aac353a81"
-			"d45bb2e2-cabc-440b-9d79-ef50a09621c0" "d4a4b998-a2f5-4123-8c3d-b20ca1c6889c"
-			"d4d59fea-c887-414a-b983-28309a2d5c07" "d5236ad4-7420-4d98-83a5-d22d8e9879e3"
-			"d598a5ee-5915-42cf-b637-f28381ae7244" "d5ca908f-167c-4afa-9e3b-8c23c94e50c9"
-			"d61aa10d-1ad0-40a1-bb89-3aff69094bae" "d653b1ec-d3dd-4b35-adae-267be5355258"
-			"d735da80-030f-408a-99ff-e8e444202402" "d75cc952-8bb7-4808-a110-6fb606eab9e6"
-			"d77cf9f4-95ec-49c7-9596-c8b0b5f24d59" "d79e87d4-ec84-4e1d-99a6-c984fe32aa2d"
-			"d7b8dcce-f281-423e-b0ae-3c6cf12423ca" "d7ca6722-9e6c-46c8-b47d-f8338b28f3c4"
-			"d7dcfc86-bf12-46ad-840e-99afe1af4952" "d7dfa6ff-8b9f-479b-b8e8-8ffd137a0b6e"
-			"d81c1d7a-6d15-4ff7-972e-34eccaff7646" "d86ffeb5-a78d-42bf-92f5-62408413fc82"
-			"d95a62e2-bb91-4d38-b27b-1d6a03d51342" "d9c94b20-13e0-4def-aadb-b56d48e881fa"
-			"dab71a55-3141-4745-beb7-b63a1ecd3679" "dab98b42-96d0-4d25-b266-2a7eac34d07c"
-			"dadd4d61-5f0d-4f77-bf10-5b5556ad5bef" "dc54a59c-c8a5-4b1e-8857-e6dfa5164466"
-			"dc67ab79-14c1-4c86-9beb-261db8d451e0" "dc96ce06-def7-43fb-8264-e34cd7fa9c76"
-			"dd025b8d-d2fe-4698-825b-9328eb78a3e2" "de9dccb7-7440-4aba-9a2c-c001c0048aea"
-			"dea424f0-ddea-4268-b143-e08ff9da2118" "df5765e8-47d9-4b44-89d7-871d69dbdc6c"
-			"df6e4387-871c-45b4-804a-f5bf5a190a4e" "dfb3c7ca-82f6-4127-8eae-937ea627d60f"
-			"dfb9bc09-6bd9-4af6-af47-ad49a3c24e82" "e0127e95-6e41-4a34-8bf2-2a3d9bd5e3a4"
-			"e0ee53bb-4dd7-4f20-b5c3-30134fe8d8b6" "e11b5818-8eaf-4153-8f21-d4ffa2a6376f"
-			"e1e5788e-f2ff-4369-9c2c-e83d0bb03ee4" "e238c298-a0fb-4dff-bd1d-a713bbde3c54"
-			"e31ed73e-d6f4-44f4-bbaa-2229aaa83de2" "e366b040-a0e3-4332-b321-7d041d49536e"
-			"e3bae5da-4834-4461-8d5c-fd66979599dd" "e3beb894-4d40-41d9-968a-d9bbf5bf2cd4"
-			"e50bdcb0-a82b-4b61-8655-5e5aa078f466" "e550ca98-f60b-4ffb-a411-9d315daf6bb7"
-			"e55dc695-d181-42f5-bbf2-f4d7cc65027b" "e69c48e5-7ac3-48a7-989c-0e8fa014edd2"
-			"e769da3c-0f7f-46a3-9131-c117fe774efa" "e7b7df07-8872-4a20-aa22-6b4788e4c102"
-			"e7ec6fbd-ba7a-4c5b-88b8-a6c304fa8fc2" "e91ff097-921f-406a-875c-635b4c1083ad"
+			"a15b0989-9c70-4335-9968-ba9a4d9c61de" "a15d9d5d-9904-4ea2-8562-dae50520b2ff"
+			"a172edf4-f1bd-4db2-8563-c8cbc290e88a" "a19a565a-ba7d-42ed-bf19-0f4f8147b730"
+			"a212a22b-ed05-422c-9b10-dc7b833f5ca9" "a28e0a57-374a-4004-a13f-b3d81084b8bb"
+			"a3ca4531-aba4-4124-9d8d-2d20eb0ba4b1" "a53c8eae-62b5-436c-a155-b39f28a50913"
+			"a5cd2652-7555-43bf-80e9-d92b200097d5" "a66d5b53-5da4-4586-a91f-b2aa006ea0b3"
+			"a763fc89-d1d0-438b-aa4c-b24d4699548a" "a78f60fc-e6ec-4fc6-a1fe-ae8fd37252dd"
+			"a7f12d3a-2408-4b5f-8974-2eff445ed612" "a8323fc1-dee1-48fb-9b38-97d1940804ca"
+			"a9b088e9-7918-4e8c-9617-c4c4d0b4272a" "a9b6ea6c-bd67-42b0-b093-790c004cbeb0"
+			"a9bcc06e-646e-4479-b3f4-dfff2c515e38" "aa19acb8-5db2-40ca-b70d-c9d50679ae9f"
+			"ab78be4a-549d-4876-a3bc-27116d89ad6a" "abb3a164-6f75-422f-8c6a-131b55585cab"
+			"abf5b7df-566e-4fae-99b3-cf66730a5557" "ac3c69e7-c6ad-4016-b089-2dc547cdecc5"
+			"ac9c871c-0abd-4aa1-b848-7a99835ecb42" "ad0a637d-c02b-4563-8de2-096fc6cc47d2"
+			"adf97e79-2bca-4ce7-9b0d-0ac49f291536" "aed21aa0-906c-4d54-ad77-0c4c98f4de5d"
+			"aee2ed20-4115-44b5-bcb4-aee3fa1334e6" "af2d5922-4933-4a28-bf21-ab910e0b872d"
+			"af44cdf1-4b67-4c07-bc57-275b7d7db780" "af5d96d6-94ba-4575-846e-fe8e27df3950"
+			"af690711-aa02-4a0d-828c-b72da4fd96f4" "b0720fee-3876-48a5-b044-504d7cd41e43"
+			"b10290e0-90e1-4334-a6d3-7ffbed5b28dc" "b114ce00-907f-4912-8446-f8f095289a19"
+			"b1bcee45-65de-434f-b1b1-68e4d99f1c14" "b1d0012d-b20e-4071-b1a5-07b21f96ff1b"
+			"b1fedb49-c863-4932-b067-0f9cb56c0b18" "b34d3c7b-4406-4821-9ef8-eeb62c12ca2a"
+			"b4067766-ad3f-4490-a51c-4cad6a2b2910" "b49cbaac-89c0-4cd4-830b-29772c331128"
+			"b4ddd82c-7c9e-438d-a96c-397934a2af17" "b4f7f616-5105-476e-8d78-7146ef5f5da4"
+			"b5447c3f-6144-4ad2-8b4c-b8f4f7d5d043" "b5d5fefc-deed-414c-b064-204c3ad480ae"
+			"b644bdf7-4d47-46a0-9523-dd9a92b2f0db" "b652d0c6-7c85-45e5-a546-2d899be7f534"
+			"b6d07ef1-c94f-418f-8daf-c8c3cd9b6508" "b6fea4c0-6fe8-4f8a-9356-04909d8aa0af"
+			"b70d2e01-59f3-4815-a61a-67770e7cd904" "b7940b9f-66a8-445f-8519-bf584deeebaa"
+			"b83550e1-bcc4-4832-872e-78922cccf04d" "b8c81eec-f9c1-4cbf-9618-3e8a7e69e838"
+			"ba4b9d5f-c299-4809-bda7-26cb3c329860" "ba624e6e-6862-4b78-a5cc-7e8c31709ab6"
+			"baa5f3b6-dc82-4d5b-8b26-45125e43e6f9" "baa83a8d-aa8a-4d03-8581-3a33a0e281f3"
+			"baf5dcb6-5659-41a1-bb77-1814ab187197" "bb1bcfea-36d3-4770-b1ec-678bf7090891"
+			"bb5c68fa-c24d-422a-bf01-b9608df3013b" "bb72446c-7e7d-416e-bff6-37a145a1030e"
+			"bb911090-ba3d-4dc0-94ae-f99ca4d0b1d6" "bc4178ac-dd9d-4000-a807-9266752d3846"
+			"bc5dd621-c338-4c7e-b958-59fea6dcc0e8" "bc5e5075-3579-4520-bd89-d8e48ac46d7f"
+			"bc665181-07e5-41a4-9efb-143c3052e667" "bcf51d7a-c452-40ee-8e2f-b56d88fd52bc"
+			"bcf7ca1d-5609-41e5-b657-3d8f1a4ba186" "bd63d21d-4263-48c2-bf40-66fc10795fd9"
+			"bd70b660-2c94-418e-8607-f00ae8982c6b" "c0091b59-5b97-4d45-be5a-f80b2a040c95"
+			"c12ed87c-3992-473d-bf9a-3fcab1a1fe26" "c1538815-6656-4801-99c0-92fe52ba18e5"
+			"c1cc8b5c-cdc2-42ef-ad80-0e6d11bb37fe" "c2d58513-24fd-4eae-8baa-ce726e4ba902"
+			"c369af62-da2f-4a7d-b328-6b28332d7d16" "c4595133-01b1-4b25-aa16-f540ed01baaf"
+			"c469ce29-b94b-4c4c-b698-67a0e8d0c5d2" "c5294ae5-7bbf-4899-a0bd-379d630f44fd"
+			"c5605423-0e4e-44aa-8ff8-404fa827ef0e" "c5b5f1cd-4ebe-4a9e-be12-a55ecb0395aa"
+			"c65c0956-dea0-4cea-a2e2-893627666a5c" "c78a974b-188f-4c74-ba20-3232878792b4"
+			"c7f3c754-05a7-472c-bc51-6cb6ac5d5cf9" "c8357072-ae57-4749-bb0d-b85d68b8bcea"
+			"c84036d1-1363-48ec-bfd3-91934d776587" "c8e303c1-d98c-4591-871b-5e9ca0a65456"
+			"c987d9c6-88be-4d17-89d9-88ac4b871026" "c9dbeebf-888d-4426-b0e2-93febb9f670d"
+			"ca741e57-79ca-4665-97e3-21b0d684fbba" "ca948ae0-ddbc-43be-b779-30ac0b6286e9"
+			"cac200b5-41c6-423f-9914-3604848d8dc9" "cb01102a-a3a4-4f4e-9a3c-c08a5b9d74dc"
+			"cb2cc550-8f9f-4295-a9ee-5ad17215743e" "cbc32b90-b0f7-459c-8958-4926ce70e142"
+			"cda15405-7e86-4779-b182-24d1d5020245" "ce0c8b2b-e7f4-49f7-9255-7d527a75f243"
+			"ce15ca92-133a-4e7f-90a2-830dd577d351" "ce3b8c5c-d352-4314-a996-86a5ee78aa9e"
+			"cf225948-3e98-4bb8-b5fe-94443e922fe3" "cf27e125-ff2b-4e54-8015-4f9737992240"
+			"cf5c423c-a8a6-4746-a16d-5238d6559806" "cf5f35bb-016d-44db-95de-dd8b8db96398"
+			"cf7653bb-23df-4149-9c52-82f6e9decd24" "cfbec8a4-2aac-4dcb-b3f6-a724063a3872"
+			"d02ed8c2-db3f-46a0-8007-c0ba8aaacfff" "d036ecf9-89f7-448f-bf1a-30e9186ae19e"
+			"d049969e-ff1e-44a8-9bad-b18a7f3f3488" "d0622e41-9f49-4054-8d06-063f94ae4348"
+			"d143b37d-31da-4c48-a321-67b30bec3128" "d1ab7b4c-3b76-43ed-8b0b-568dcd6f800b"
+			"d1b14a07-9190-445b-ac4d-77edcc0bc0dd" "d2022b7b-753f-4b50-8fb5-4fb4b7745dfc"
+			"d213d8d6-0da6-4f8c-a73a-184e8b15e6b6" "d24ba146-519e-4406-b6bb-9a17b18be108"
+			"d2845f49-097a-420d-90b1-3ecb75ac3a8a" "d2e4aa50-e5f7-4465-a58d-7142263a380e"
+			"d2f07186-3110-4c5b-882f-137aac353a81" "d45bb2e2-cabc-440b-9d79-ef50a09621c0"
+			"d4a4b998-a2f5-4123-8c3d-b20ca1c6889c" "d4d59fea-c887-414a-b983-28309a2d5c07"
+			"d5236ad4-7420-4d98-83a5-d22d8e9879e3" "d598a5ee-5915-42cf-b637-f28381ae7244"
+			"d5ca908f-167c-4afa-9e3b-8c23c94e50c9" "d61aa10d-1ad0-40a1-bb89-3aff69094bae"
+			"d653b1ec-d3dd-4b35-adae-267be5355258" "d735da80-030f-408a-99ff-e8e444202402"
+			"d75cc952-8bb7-4808-a110-6fb606eab9e6" "d77cf9f4-95ec-49c7-9596-c8b0b5f24d59"
+			"d79e87d4-ec84-4e1d-99a6-c984fe32aa2d" "d7b8dcce-f281-423e-b0ae-3c6cf12423ca"
+			"d7ca6722-9e6c-46c8-b47d-f8338b28f3c4" "d7dcfc86-bf12-46ad-840e-99afe1af4952"
+			"d7dfa6ff-8b9f-479b-b8e8-8ffd137a0b6e" "d81c1d7a-6d15-4ff7-972e-34eccaff7646"
+			"d86ffeb5-a78d-42bf-92f5-62408413fc82" "d95a62e2-bb91-4d38-b27b-1d6a03d51342"
+			"d9c94b20-13e0-4def-aadb-b56d48e881fa" "dab71a55-3141-4745-beb7-b63a1ecd3679"
+			"dab98b42-96d0-4d25-b266-2a7eac34d07c" "dadd4d61-5f0d-4f77-bf10-5b5556ad5bef"
+			"dc54a59c-c8a5-4b1e-8857-e6dfa5164466" "dc67ab79-14c1-4c86-9beb-261db8d451e0"
+			"dc96ce06-def7-43fb-8264-e34cd7fa9c76" "dd025b8d-d2fe-4698-825b-9328eb78a3e2"
+			"de9dccb7-7440-4aba-9a2c-c001c0048aea" "dea424f0-ddea-4268-b143-e08ff9da2118"
+			"df5765e8-47d9-4b44-89d7-871d69dbdc6c" "df6e4387-871c-45b4-804a-f5bf5a190a4e"
+			"dfb3c7ca-82f6-4127-8eae-937ea627d60f" "dfb9bc09-6bd9-4af6-af47-ad49a3c24e82"
+			"e0127e95-6e41-4a34-8bf2-2a3d9bd5e3a4" "e0ee53bb-4dd7-4f20-b5c3-30134fe8d8b6"
+			"e11b5818-8eaf-4153-8f21-d4ffa2a6376f" "e1e5788e-f2ff-4369-9c2c-e83d0bb03ee4"
+			"e238c298-a0fb-4dff-bd1d-a713bbde3c54" "e31ed73e-d6f4-44f4-bbaa-2229aaa83de2"
+			"e366b040-a0e3-4332-b321-7d041d49536e" "e3bae5da-4834-4461-8d5c-fd66979599dd"
+			"e3beb894-4d40-41d9-968a-d9bbf5bf2cd4" "e50bdcb0-a82b-4b61-8655-5e5aa078f466"
+			"e550ca98-f60b-4ffb-a411-9d315daf6bb7" "e55dc695-d181-42f5-bbf2-f4d7cc65027b"
+			"e69c48e5-7ac3-48a7-989c-0e8fa014edd2" "e769da3c-0f7f-46a3-9131-c117fe774efa"
+			"e7b7df07-8872-4a20-aa22-6b4788e4c102" "e7ec6fbd-ba7a-4c5b-88b8-a6c304fa8fc2"
+			"e8a0f16a-9d36-4c5b-8fa7-61fad865eaed" "e91ff097-921f-406a-875c-635b4c1083ad"
 			"eabb7cf9-3ce8-40ce-a2bd-ca515620be35" "eafba353-b8ac-4e17-ad28-29b2775059c2"
 			"ebf350f5-a1cb-4d58-bffa-afa274dff344" "ec1b8c80-71ab-4f2f-9ab8-3a2b4015f44e"
 			"ec3b83a2-731d-444e-9cf6-0c9e4d1c6ba6" "ec6edc23-0fb3-40d6-a55d-13593ef9e926"

@@ -25,3 +25,7 @@ fp-info-cache
 *.ses
 
 *.zip
+
+.history/
+jlcpcb/
+*.rpt

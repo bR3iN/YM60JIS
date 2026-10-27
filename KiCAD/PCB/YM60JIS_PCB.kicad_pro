@@ -76,60 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "duplicate_footprints|355600000|76125000|2bec0ad6-eba4-40f8-ada2-d95a879a9531|0fc6aa74-369c-47d8-a04d-eb66e0d58317",
-          ""
-        ],
-        [
-          "extra_footprint|120750000|76125000|0fc6aa74-369c-47d8-a04d-eb66e0d58317|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "extra_footprint|355600000|76125000|2bec0ad6-eba4-40f8-ada2-d95a879a9531|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "net_conflict|113450000|50345000|49c7b690-3e77-46b4-a7ac-32a6311ead5b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "net_conflict|113450000|50345000|c26a98fd-65ad-49f6-abed-5609af5c4b7b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "net_conflict|113450000|50345000|ce368d6f-677d-474b-a96b-d59d4c662055|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "net_conflict|113450000|50345000|ce74dd74-6a9f-452c-a499-e09fb7dc31ee|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "nonmirrored_text_on_back_layer|112550000|64725000|3f7a07c5-a9c0-41d2-838e-99744bd3b31e|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_edge_clearance|108750000|48225000|df09eab3-2075-41b8-8709-12cb20056303|c989b638-b6d9-42be-a68b-04f209957568",
-          ""
-        ],
-        [
-          "silk_edge_clearance|118150000|48225000|df09eab3-2075-41b8-8709-12cb20056303|927f7587-83d7-413e-95fa-2ad96eed2969",
-          ""
-        ],
-        [
-          "solder_mask_bridge|349964375|63817500|70880fc4-1634-4b77-8263-6b0f5ddf0212|14a22022-e92f-49e9-921a-9ac6a1eac7ef",
-          ""
-        ],
-        [
-          "solder_mask_bridge|353565000|55610000|9e763209-4d1d-4bd1-8a31-db694bbd24ea|8b128157-e0de-4572-8cf5-e41f8cfdf533",
-          ""
-        ],
-        [
-          "solder_mask_bridge|360810000|58690000|6782a254-26a2-4c7e-9d8a-98d773969af9|1a359621-5c35-4030-95e1-f4408a922031",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -148,8 +95,8 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
-        "footprint_symbol_field_mismatch": "warning",
-        "footprint_symbol_mismatch": "warning",
+        "footprint_symbol_field_mismatch": "ignore",
+        "footprint_symbol_mismatch": "ignore",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "ignore",
         "hole_near_hole": "error",
@@ -329,12 +276,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "lib_symbol_issues|1422400|2578100|b272a82e-a957-4d99-a0d5-9b6a25659ff5|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -523,15 +465,15 @@
       "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "warning",
       "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
-      "lib_symbol_issues": "warning",
-      "lib_symbol_mismatch": "warning",
+      "lib_symbol_issues": "ignore",
+      "lib_symbol_mismatch": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -549,7 +491,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -803,7 +745,7 @@
         "uuid": "3d120d70-8016-4f25-b980-ad33d03c9704"
       }
     ],
-    "used_designators": "",
+    "used_designators": "SW64_2,SW62_2,SW59_2,SW58_2,SW56_2,SW42_2,SW14_2,SW70-138,ST64_2,ST62_2,ST15,ST43,ST45,ST57,ST63,ST65,D70-138,SW44_2-3",
     "variants": []
   },
   "sheets": [
